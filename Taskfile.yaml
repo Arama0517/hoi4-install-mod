@@ -9,6 +9,8 @@ tasks:
 
   run:
     desc: 运行
+    env:
+      GOOS: windows
     cmd: go run . {{ .CLI_ARGS }}
 
   build:

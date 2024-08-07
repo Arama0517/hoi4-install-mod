@@ -1,6 +1,6 @@
 module github.com/Arama0517/hoi4-install-mod
 
-go 1.22.6
+go 1.22
 
 require (
 	github.com/apex/log v1.9.0
